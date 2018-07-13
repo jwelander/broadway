@@ -1,13 +1,18 @@
 body {
   text-align: center;
 }
-header {
+header,
+footer {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
 }
-header a {
+header a,
+footer a {
   color: white;
 }
 header ul {
   list-style-type: none;;
+}
+footer {
+  text-align: left;
 }
